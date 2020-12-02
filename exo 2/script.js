@@ -1,5 +1,4 @@
 let liste = document.getElementById('liste-commissions');
-let dernier = document.getElementsByTagName("li")
 
 function ajout() {
      let ajouter = document.getElementById("input").value;
