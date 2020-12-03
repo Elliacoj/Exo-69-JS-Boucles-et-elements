@@ -8,9 +8,7 @@ function ajout() {
 }
 
 function retirer() {
-     if (liste.childElementCount === 0) {
-     }
-     else {
-      liste.removeChild(liste.lastElementChild);
+     if (liste.childElementCount !== 0) {
+          liste.removeChild(liste.lastElementChild);
      }
 }
